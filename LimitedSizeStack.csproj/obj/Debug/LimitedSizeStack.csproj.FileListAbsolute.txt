@@ -1,0 +1,11 @@
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\bin\Debug\TodoApplication.exe.config
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\bin\Debug\TodoApplication.exe
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\bin\Debug\TodoApplication.pdb
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\bin\Debug\nunit.framework.dll
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\LimitedSizeStack.csprojAssemblyReference.cache
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\TodoApplication.Properties.Resources.resources
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\LimitedSizeStack.csproj.GenerateResource.cache
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\LimitedSizeStack.csproj.CoreCompileInputs.cache
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\LimitedSizeStack.csproj.CopyComplete
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\TodoApplication.exe
+D:\Files\Ulern Lab\LimitedSizeStack.csproj\obj\Debug\TodoApplication.pdb
