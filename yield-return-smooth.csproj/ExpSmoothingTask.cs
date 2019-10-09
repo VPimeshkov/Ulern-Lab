@@ -8,24 +8,24 @@ namespace yield
 		{
             var isFirstItem = true;
             double previousItem = 0;
-            foreach (var e in data)
+            foreach (var item in data)
             {
-                var item = new DataPoint();
-                item.AvgSmoothedY = e.AvgSmoothedY;
-                item.MaxY = e.MaxY;
-                item.OriginalY = e.OriginalY;
-                item.X = e.X;
+                var point = new DataPoint();
+                point.AvgSmoothedY = item.AvgSmoothedY;
+                point.MaxY = item.MaxY;
+                point.OriginalY = item.OriginalY;
+                point.X = item.X;
                 if (isFirstItem)
                 {
                     isFirstItem = false;
-                    previousItem = e.OriginalY;
+                    previousItem = item.OriginalY;
                 }
                 else
                 {
-                    previousItem = alpha * e.OriginalY + (1 - alpha) * previousItem;
+                    previousItem = alpha * item.OriginalY + (1 - alpha) * previousItem;
                 }
-                item.ExpSmoothedY = previousItem;
-                yield return item;
+                point.ExpSmoothedY = previousItem;
+                yield return point;
             }
         }
 	}
